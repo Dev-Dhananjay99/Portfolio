@@ -1,0 +1,82 @@
+    .header {
+        height :60px;
+        background-color: rgb(48, 45, 45);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        }
+
+    .left-section {
+        width: 180px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+
+    .Welcome {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+
+    span {
+        color:rgb(248, 39, 11);
+    }
+
+    .middle-section {
+        margin-right: 20px;
+        margin-left: 20px;
+        width:600px;
+        min-width: 300px;
+    }
+    
+    a {
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: white;
+        font-weight: 700;
+    }
+
+    a:hover {
+        color: rgb(248, 39, 11);
+        transition: 0.3s;
+    }
+
+    .right-section {
+        width: 120px;
+        margin-right: 40px;
+    }
+
+    .contact-button {
+        font-weight: 700;
+        color: white;
+        background-color: rgb(248, 39, 11);
+        font-size: 14px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 12px;
+        padding-left: 12px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .contact-button:hover {
+      
+        background-color: white;
+        color:rgb(248, 39, 11);
+    }
+
+    .contact-button:active {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 11px;
+        padding-left: 11px;
+    }

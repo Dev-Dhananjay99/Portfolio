@@ -1,0 +1,57 @@
+.education-container {
+    max-width: 900px;
+    margin: 120px auto 50px;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.section-title span {
+    color: rgb(248, 39, 11);
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.edu-card {
+    background: white;
+    border: 2px solid rgb(248, 39, 11); /* Consistent orange border */
+    border-radius: 12px;
+    padding: 25px 30px;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu-card:hover {
+    transform: translateX(10px);
+    background: rgba(248, 39, 11, 0.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.edu-info h3 {
+    font-size: 22px;
+    color: rgb(48, 45, 45);
+    margin: 0 0 5px 0;
+}
+
+.institution {
+    font-weight: bold;
+    color: rgb(248, 39, 11);
+    font-size: 17px;
+    margin: 5px 0;
+}
+
+.duration {
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
